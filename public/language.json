@@ -1,0 +1,44 @@
+[
+    {
+      "id": "6334960ab7c71223c8db1431",
+      "name": "HTML",
+      "time": 74,
+      "img": "./images/html.jpg",
+      "text": "The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser."
+    },
+    {
+      "id": "6334960a4a66c58df47b5c48",
+      "name": "CSS",
+      "time": 42,
+      "img": "./images/css.jpg",
+      "text": "Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML."
+    },
+    {
+      "id": "6334960a9c2da2e11389d60f",
+      "name": "Bootstrap",
+      "time": 59,
+      "img": "./images/bootstrap.jpg",
+      "text": "Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development."
+    },
+    {
+      "id": "6334960a4aa03c2067c6413f",
+      "name": "Javascript",
+      "time": 87,
+      "img": "./images/js.jpg",
+      "text": "JavaScript, often abbreviated to JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS."
+    },
+    {
+      "id": "6334960aa451ced16087dfc2",
+      "name": "React",
+      "time": 84,
+      "img": "./images/react.jpg",
+      "text": "React is a free and open-source front-end JavaScript library for building user interfaces based on UI components."
+    },
+    {
+      "id": "6334960a0e33f0aaff7e0548",
+      "name": "JSON",
+      "time": 64,
+      "img": "./images/json.jpg",
+      "text": "JSON is an open standard file format and data interchange format that uses human-readable text to store and transmit data objects consisting of attribute–value pairs and arrays."
+    }
+  ]
