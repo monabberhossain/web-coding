@@ -1,0 +1,24 @@
+.technology{
+    padding: 20px;
+    background-color:aliceblue;
+    border-radius: 10px;
+}
+.technology img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.btn-cart{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #404080;
+}
+
+.btn-cart:hover{
+    background-color:deepskyblue;
+    color: #FFFFFF
+}

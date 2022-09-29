@@ -11,7 +11,7 @@
       "name": "CSS",
       "time": 42,
       "img": "./images/css.jpg",
-      "text": "Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML."
+      "text": "Cascading Style Sheets is a language used for describing the presentation of a document written in a markup language like HTML."
     },
     {
       "id": "6334960a9c2da2e11389d60f",
@@ -25,7 +25,7 @@
       "name": "Javascript",
       "time": 87,
       "img": "./images/js.jpg",
-      "text": "JavaScript, often abbreviated to JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS."
+      "text": "JavaScript is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS."
     },
     {
       "id": "6334960aa451ced16087dfc2",
@@ -39,6 +39,6 @@
       "name": "JSON",
       "time": 64,
       "img": "./images/json.jpg",
-      "text": "JSON is an open standard file format and data interchange format that uses human-readable text to store and transmit data objects consisting of attribute–value pairs and arrays."
+      "text": "JSON (JavaScript Object Notation) is a lightweight data-interchange format. It is easy for humans to read and write."
     }
   ]
