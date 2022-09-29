@@ -30,6 +30,7 @@
     justify-content: space-around;
     background-color: azure;
     margin-top: 30px;
+    margin-bottom: 40px;
     border-radius: 10px;
 }
 
@@ -47,4 +48,44 @@
     font-weight: 500;
     margin-top: 0px;
     text-align: center;
+}
+
+.break-option{
+    display: flex;
+    justify-content: space-around;
+    background-color: azure;
+    border-radius: 10px;
+    padding: 25px 0;    
+}
+
+.time-button{
+    background-color: #404080;
+    color: #FFFFFF;
+    border: none;
+    padding: 15px 10px;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.time-button:hover{    
+    background-color:deepskyblue;
+    color: #FFFFFF
+}
+
+.study-detail{
+    margin-top: 40px;
+}
+
+.study-time{
+    background-color: azure;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.activity-completed{
+    margin-top: 40px;
+    padding: 20px 0;
 }

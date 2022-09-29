@@ -32,9 +32,23 @@ const Side = () => {
                     </div>
                 </div>
                 <div className="add-break">
-                    <h2></h2>
+                    <h2>Add A Break</h2>
+                    <div className='break-option'>
+                        <button className='time-button'>10s</button>
+                        <button className='time-button'>20s</button>
+                        <button className='time-button'>30s</button>
+                        <button className='time-button'>40s</button>
+                        <button className='time-button'>50s</button>
+                    </div>
                 </div>
-                <div className="study-detail"></div>
+                <div className="study-detail">
+                    <h2>Study Details</h2>
+                    <div>
+                        <p className='study-time'>Study Time<span>seconds</span></p>
+                        <p className='study-time'>Break Time<span>seconds</span></p>
+                    </div>
+                </div>
+                <button className='btn-cart activity-completed'>Activity Completed</button>                
             </div>
         </div>
     );
