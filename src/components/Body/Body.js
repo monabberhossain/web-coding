@@ -12,7 +12,7 @@ const Body = () => {
     }, []);
     return (
         <div className='body'>
-            <h1>Select today’s study activities</h1>
+            <h1 className='headline'>Select today’s study activities</h1>
             <div className='technology-container'>
             {
                 technologies.map(technology => <Technology 
