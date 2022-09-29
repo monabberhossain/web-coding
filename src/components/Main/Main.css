@@ -6,3 +6,15 @@
 .main h1{
     color: #303075;
 }
+
+@media screen and (max-width: 991px) {
+    .main{
+        padding: 60px 70px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main{
+        padding: 40px 60px;
+    }
+}

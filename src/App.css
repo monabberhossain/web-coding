@@ -2,3 +2,10 @@
   display: grid;
   grid-template-columns: 3fr 1fr;
 }
+
+@media screen and (max-width: 767px) {
+  .main-app{
+    display: grid;
+    grid-template-columns:auto;
+  }
+}
