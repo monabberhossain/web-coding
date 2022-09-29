@@ -1,11 +1,16 @@
 .main-app{
-  display: grid;
-  grid-template-columns: 3fr 1fr;
+  padding: 0 140px;
+  background-color: azure;
+}
+
+@media screen and (max-width: 991px) {
+  .main-app{
+    padding: 0 70px;
+  }
 }
 
 @media screen and (max-width: 767px) {
   .main-app{
-    display: grid;
-    grid-template-columns:auto;
+    padding: 0 40px;
   }
 }

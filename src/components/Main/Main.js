@@ -1,15 +1,13 @@
 import React from 'react';
-import Blog from '../Blog/Blog';
 import Body from '../Body/Body';
-import Header from '../Header/Header';
+import Side from '../Side/Side';
 import './Main.css'
 
 const Main = () => {
     return (
         <div className='main'>
-            <Header></Header>
-            <Body></Body>
-            <Blog></Blog>
+            <Body></Body>            
+            <Side></Side>
         </div>
     );
 };

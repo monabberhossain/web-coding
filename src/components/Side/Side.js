@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 import './Side.css'
 
-const Side = () => {
+const Side = (props) => {
     return (
         <div className='side'>
             <div className="profile">
@@ -44,8 +44,8 @@ const Side = () => {
                 <div className="study-detail">
                     <h2>Study Details</h2>
                     <div>
-                        <p className='study-time'>Study Time<span>seconds</span></p>
-                        <p className='study-time'>Break Time<span>seconds</span></p>
+                        <p className='study-time'>Study Time<span className='unit'>minute</span></p>
+                        <p className='study-time'>Break Time<span className='unit'>seconds</span></p>
                     </div>
                 </div>
                 <button className='btn-cart activity-completed'>Activity Completed</button>                

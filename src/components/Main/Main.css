@@ -1,20 +1,23 @@
 .main{
-    padding: 120px 140px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 40px;
     background-color:azure;
-}
-
-.main h1{
-    color: #303075;
 }
 
 @media screen and (max-width: 991px) {
     .main{
-        padding: 60px 70px;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 30px;
+        background-color:azure;
     }
 }
 
 @media screen and (max-width: 768px) {
     .main{
-        padding: 40px 60px;
+        display: grid;
+        grid-template-columns: auto;
+        background-color:azure;
     }
 }
