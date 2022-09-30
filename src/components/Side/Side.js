@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import photo from "../../../src/photo.jpg";
+import { toast } from "react-toastify";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
 import "./Side.css";
-import { toast } from "react-toastify";
 
 // getting data from local storage
 const getBreakTime = () => {
