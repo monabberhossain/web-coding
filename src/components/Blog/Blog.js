@@ -7,7 +7,7 @@ const Blog = () => {
       <h1 className="headline">Blog</h1>
       <div>
         <h3 className="question">How does react work?</h3>
-        <p className="answer">
+        <div className="answer">
           ReactJS divides the UI into isolated reusable pieces of code known as
           components. React components work similarly to JavaScript functions as
           they accept arbitrary inputs called properties or props. It’s possible
@@ -26,11 +26,11 @@ const Blog = () => {
             for example, a TabList component may store a variable corresponding
             to the currently open tab.
           </p>
-        </p>
+        </div>
       </div>
       <div>
         <h3 className="question">Differences between props and state:</h3>
-        <p className="answer">
+        <div className="answer">
           PROPS:
           <ul>
             <li>The Data is passed from one component to another.</li>
@@ -48,14 +48,14 @@ const Blog = () => {
             </li>
             <li>State is both read and write.</li>
           </ul>
-        </p>
+        </div>
       </div>
       <div>
         <h3 className="question">
           Uses of useEffect except data loading with API:
         </h3>
-        <p className="answer">
-            <h4>5 use case of useEffect:</h4>
+        <div className="answer">
+          <h4>5 use case of useEffect:</h4>
           <ul>
             <li>Running on state change: validating input field</li>
             <li>Running on state change: live filtering</li>
@@ -71,7 +71,7 @@ const Blog = () => {
               updated price
             </li>
           </ul>
-        </p>
+        </div>
       </div>
     </div>
   );

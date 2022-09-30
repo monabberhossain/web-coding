@@ -1,111 +1,115 @@
-.side{
-    background-color: #E7F1FF;
-    padding: 30px;
-    border-radius: 10px;
+.side {
+  background-color: #e7f1ff;
+  padding: 30px;
+  border-radius: 10px;
 }
 
-.profile-info{
-    display: flex;
-    align-items: center;
+.profile-info {
+  display: flex;
+  align-items: center;
 }
 
-.profile-img img{
-    border-radius: 10px;
+.profile-img img {
+  border-radius: 10px;
 }
 
-.profile-bio{
-    padding-left: 15px;
+.profile-bio {
+  padding-left: 15px;
 }
 
-.profile-bio h2{
-    margin-top: 5px;
-    margin-bottom: 0px;
+.profile-bio h2 {
+  margin-top: 5px;
+  margin-bottom: 0px;
 }
 
-.profile-bio p{
-    margin-top: 0px;
+.profile-bio p {
+  margin-top: 0px;
 }
 
-.profile-expertise{
-    display: flex;
-    justify-content: space-around;
-    background-color: azure;
-    margin-top: 30px;
-    margin-bottom: 40px;
-    border-radius: 10px;
+.profile-expertise {
+  display: flex;
+  justify-content: space-around;
+  background-color: azure;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  border-radius: 10px;
 }
 
-.expert-field h2{
-    margin-bottom: 5px;
+.expert-field h2 {
+  margin-bottom: 5px;
 }
 
-.year{    
-    font-size: 20px;
-    font-weight: 700;
+.year {
+  font-size: 20px;
+  font-weight: 700;
 }
 
-.expert-field p{    
-    font-size: 18px;
-    font-weight: 500;
-    margin-top: 0px;
-    text-align: center;
+.expert-field p {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 0px;
+  text-align: center;
 }
 
-.break-option{
-    display: flex;
-    justify-content: space-around;
-    background-color: azure;
-    border-radius: 10px;
-    padding: 25px 0;    
+.break-option {
+  display: flex;
+  justify-content: space-around;
+  background-color: azure;
+  border-radius: 10px;
+  padding: 25px 0;
 }
 
-.time-button{
-    background-color: #404080;
-    color: #FFFFFF;
-    border: none;
-    padding: 15px 10px;
-    border-radius: 25px;
-    font-weight: 600;
-    font-size: 20px;
+.time-button {
+  background-color: #404080;
+  color: #ffffff;
+  border: none;
+  padding: 15px 10px;
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 20px;
 }
 
-.time-button:hover{    
-    background-color:deepskyblue;
-    color: #FFFFFF
+.time-button.active {
+  background-color: deepskyblue;
 }
 
-.study-detail{
-    margin-top: 40px;
+.time-button:hover {
+  background-color: deepskyblue;
+  color: #ffffff;
 }
 
-.study-time{
-    background-color: azure;
-    padding: 20px;
-    border-radius: 10px;
-    font-size: 20px;
-    font-weight: 600;
+.study-detail {
+  margin-top: 40px;
 }
 
-.unit{
-    margin-left: 60px;
-    font-weight: 300;
+.study-time {
+  background-color: azure;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 600;
 }
 
-.activity-completed{
-    margin-top: 40px;
-    padding: 20px 0;
+.unit {
+  margin-left: 60px;
+  font-weight: 300;
+}
+
+.activity-completed {
+  margin-top: 40px;
+  padding: 20px 0;
 }
 
 @media screen and (max-width: 991px) {
-    .side{
-        background-color: #E7F1FF;
-        padding: 15px;
-    }
+  .side {
+    background-color: #e7f1ff;
+    padding: 15px;
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .side{
-        background-color: #E7F1FF;
-        padding: 0;
-    }
+  .side {
+    background-color: #e7f1ff;
+    padding: 0;
+  }
 }

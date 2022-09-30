@@ -1,19 +1,19 @@
-.blog{
-    margin-top: 50px;
+.blog {
+  margin-top: 50px;
 }
 
-.headline{
-    margin-bottom: 30px;
+.headline {
+  margin-bottom: 30px;
 }
 
-.question{
-    background-color: #E7F1FF;
-    padding: 10px;
-    border-radius: 10px;
+.question {
+  background-color: #e7f1ff;
+  padding: 10px;
+  border-radius: 10px;
 }
 
-.answer{
-    background-color: #FFFFFF;
-    padding: 10px;
-    border-radius: 10px;
+.answer {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
 }
